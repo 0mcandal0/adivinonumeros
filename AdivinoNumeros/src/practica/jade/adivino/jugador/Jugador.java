@@ -54,7 +54,7 @@ public class Jugador extends GuiAgent implements Vocabulario {
 		@Override
 		protected void handleElapsedTimeout() {
 			gui.Log("ERROR - No hay respuesta del maestro.");
-			falloCFP();
+			fallocfp();
 			gui.ActivarJuego(false);
 		}
 
@@ -302,7 +302,7 @@ public class Jugador extends GuiAgent implements Vocabulario {
 		addBehaviour(controlespera);
 	}
 
-	void falloCFP() {
+	void fallocfp() {
 		addBehaviour(new EnviarMensaje(this,ACLMessage.FAILURE,new Informar()));
 	}
 

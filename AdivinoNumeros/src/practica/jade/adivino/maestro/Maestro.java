@@ -52,6 +52,7 @@ public class Maestro extends GuiAgent implements Vocabulario {
 
 	// Definición del lenguaje y la ontología
 	private Codec codec = new SLCodec();
+	
 	private Ontology ontologia = OntologiaAdivino.getInstance();
 
 	// Referencia al intefaz gráfico

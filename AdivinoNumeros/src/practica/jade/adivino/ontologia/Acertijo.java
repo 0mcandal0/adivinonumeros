@@ -2,6 +2,8 @@ package practica.jade.adivino.ontologia;
 
 import java.util.Random;
 
+//Clase acertijo que manejará el agente maestro de juego para generar el número
+//a adivinar así como el intervalo para acertar con él.
 public class Acertijo {
 	long valorminimo;
 	long valormaximo;
