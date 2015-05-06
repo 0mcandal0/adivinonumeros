@@ -1,0 +1,2 @@
+Práctica de Jade utilizando Ontologías y GUI. El cometido es hacer un agente maestro que propone un número a adivinar, y varios agentes jugadores que tendrán que adivinarlo.
+Para ello se define una interfaz gráfica para cada tipo de agente y una ontología común.
